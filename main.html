@@ -61,3 +61,66 @@
       letter-spacing: -0.02em;
       color: var(--pond);
       margin-bottom: 0.4rem;
+      text-shadow: 0 0 32px rgba(45, 212, 191, 0.2);
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 38ch;
+      margin: 0 auto 1.25rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.4rem 0.9rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--pond);
+      letter-spacing: 0.04em;
+    }
+
+    nav {
+      padding: 0.85rem 0;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: rgba(11, 18, 24, 0.92);
+      backdrop-filter: blur(10px);
+      z-index: 10;
+    }
+
+    nav .wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.75rem;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    nav a:hover {
+      color: var(--pond);
+    }
+
+    section {
+      padding: 2.75rem 0;
+    }
+
+    section h2 {
+      font-family: var(--font-mono);
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.85rem;
+      color: var(--text);
+    }
